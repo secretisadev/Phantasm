@@ -1,14 +1,14 @@
 25/11/2025 (dd/mm/yyyy)
-- Phantasm works on xeno now
++ Phantasm works on xeno now
 + Idle Animations
-  + End Fade Time
+  - + End Fade Time
 + Run Animations
   - Implemented
   - + Start Fade Time
   - + End Fade Time
 + Block Animations
-  + Implemented
-  + End Fade Time
+  - Implemented
+  - + End Fade Time
 + Looped Animation
-  + R6 Boogie Down
-+ Fixed Chat Flooder (new roblox chat system isn't as dumb, now the flooder just sends 200 random letters)
+  - + R6 Boogie Down
+Fixed Chat Flooder (new roblox chat system isn't as dumb, now the flooder just sends 200 random letters)
