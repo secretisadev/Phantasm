@@ -22,13 +22,14 @@ end
 
 warn("[2] downloading")
 
-if not isfile("phantasm test 2.rbxm") then
-    writefile("phantasm test 2.rbxm", request({Url = "https://github.com/secretisadev/Phantasm/raw/refs/heads/main/phantasm%20test 2.rbxm", Method = "GET"}).Body)
+if not isfile("phantasm test 3.rbxm") then
+    writefile("phantasm test 3.rbxm", request({Url = "https://github.com/secretisadev/Phantasm/raw/refs/heads/main/phantasm%20test%203.rbxm", Method = "GET"}).Body)
 end
 
 warn("[3] getting ui")
 
-local GUI = game:GetObjects("rbxassetid://120096337976497")[1]
+local GUI = game:GetObjects(getcustomasset("phantasm test 3.rbxm"))[1]
+
 warn("[4] got ui")
 -- protectgui(GUI)
 GUI.Name = "TEMPORARY UI UI UI UI"
