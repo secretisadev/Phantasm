@@ -28,7 +28,7 @@ end
 
 warn("[3] getting ui")
 
-local GUI = game:GetObjects(getcustomasset("phantasm test 2.rbxm"))[1]
+local GUI = game:GetObjects("rbxassetid://120096337976497")[1]
 warn("[4] got ui")
 -- protectgui(GUI)
 GUI.Name = "TEMPORARY UI UI UI UI"
